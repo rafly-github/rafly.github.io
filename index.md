@@ -3,9 +3,9 @@
 layout: default
 ---
 
-# Welcome to My New Site!
+# Welcome to Tata Cipta Tama Website
 
-This is my homepage, now styled with the 'Minimal' theme. It's easy to write content using Markdown.
+styled with the 'Minimal' theme. It's easy to write content using Markdown.
 
 - List item 1
 - List item 2
