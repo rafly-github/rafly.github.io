@@ -1,11 +1,178 @@
----
-# This is the front matter. It tells Jekyll to use the theme's default layout.
-layout: default
----
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tata Cipta Tama - Enterprise Software Engineer</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2d3748;
+            background-color: #f7fafc;
+            line-height: 1.6;
+        }
+        .hero {
+            background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+            color: #ffffff;
+            padding: 90px 20px;
+            text-align: center;
+            border-bottom: 4px solid #4a5568;
+        }
+        .hero-title {
+            font-size: 2.6rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: #cbd5e0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .hero-tagline {
+            font-size: 1.1rem;
+            color: #a0aec0;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        .section-title {
+            font-size: 1.6rem;
+            color: #1a202c;
+            border-left: 5px solid #4a5568;
+            padding-left: 15px;
+            margin: 45px 0 20px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .section-title:first-of-type {
+            margin-top: 10px;
+        }
+        p {
+            font-size: 1.05rem;
+            color: #4a5568;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        @media (max-width: 500px) {
+            .grid { grid-template-columns: 1fr; }
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        }
+        .card.professional { border-top: 4px solid #2b6cb0; }
+        .card.personal { border-top: 4px solid #319795; }
+        
+        .card h4 {
+            font-size: 1.25rem;
+            color: #1a202c;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        .badge-group {
+            margin-top: 15px;
+        }
+        .tech-badge {
+            display: inline-block;
+            background-color: #edf2f7;
+            color: #4a5568;
+            padding: 4px 12px;
+            font-size: 0.85rem;
+            border-radius: 4px;
+            margin: 0 6px 8px 0;
+            font-weight: 500;
+            border: 1px solid #e2e8f0;
+        }
+        .card.professional .tech-badge { background-color: #ebf8ff; color: #2b6cb0; border-color: #bee3f8; }
+        .card.personal .tech-badge { background-color: #e6fffa; color: #234e52; border-color: #b2f5ea; }
 
-# Welcome to Tata Cipta Tama Website
+        .footer-note {
+            text-align: center;
+            margin-top: 70px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 0.95rem;
+            color: #718096;
+        }
+    </style>
+</head>
+<body>
 
-styled with the 'Minimal' theme. It's easy to write content using Markdown.
+    <div class="hero">
+        <div class="hero-title">Tata Cipta Tama</div>
+        <div class="hero-subtitle">Enterprise Software Engineering</div>
+        <div class="hero-tagline">
+            Fokus pada pengembangan arsitektur perangkat lunak modular, performa komputasi tinggi, dan integrasi sistem skala besar (*Large-scale Core Systems*).
+        </div>
+    </div>
 
-- List item 1
-- List item 2
+    <div class="container">
+        
+        <div class="section-title">Kompetensi Utama</div>
+        <p>
+            Halaman ini merupakan representasi kapabilitas teknis independen dalam merancang, membangun, dan mengoptimalkan ekosistem aplikasi bisnis yang kompleks. Pengembangan difokuskan pada keandalan struktur data, skalabilitas kode, serta integrasi multi-modul untuk mendukung otomatisasi proses internal tingkat lanjut.
+        </p>
+
+        <div class="section-title">Fokus & Ekosistem Teknologi</div>
+        <div class="grid">
+            
+            <div class="card professional">
+                <h4>1. Enterprise Core Systems (In-House Build)</h4>
+                <p>Pengalaman intensif dalam arsitektur sistem korporat internal yang terintegrasi tinggi, mencakup manajemen multi-modul, pengolahan data transaksional yang masif, serta kestabilan logika bisnis tingkat lanjut.</p>
+                <div class="badge-group">
+                    <span class="tech-badge">Java Spring</span>
+                    <span class="tech-badge">Angular</span>
+                    <span class="tech-badge">PostgreSQL</span>
+                    <span class="tech-badge">TypeScript</span>
+                    <span class="tech-badge">HTML / CSS</span>
+                </div>
+            </div>
+
+            <div class="card personal">
+                <h4>2. Research & Personal Projects (Non-Komersial)</h4>
+                <p>Eksplorasi mandiri di luar lingkungan kerja formal, berfokus pada efisiensi pemrosesan skrip otomatis, pemodelan basis data relasional alternatif, serta implementasi infrastruktur berbasis awan (*cloud layout*).</p>
+                <div class="badge-group">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">MySQL</span>
+                    <span class="tech-badge">Cloud Infrastructure</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section-title">Prinsip Pengembangan</div>
+        <p>
+            Setiap baris kode dibangun dengan standar kepatuhan tata kelola data yang ketat, mengutamakan pemisahan lapisan (*separation of concerns*), keamanan data transaksional, serta kemudahan pemeliharaan (*maintainability*) jangka panjang baik di lingkungan *on-premise server* maupun *cloud*.
+        </p>
+
+        <div class="footer-note">
+            <p style="text-align: center; margin-bottom: 5px;">&copy; Tata Cipta Tama. All Rights Reserved.</p>
+            <p style="text-align: center; font-size: 0.85rem; color: #a0aec0;">Seluruh informasi modul spesifik dilindungi oleh komitmen kerahasiaan profesional (NDA).</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
