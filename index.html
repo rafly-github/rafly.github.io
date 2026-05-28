@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tata Cipta Tama - Enterprise Software Engineer</title>
+    <title>Tata Cipta Tama - Enterprise Software Solutions</title>
     <style>
         * {
             box-sizing: border-box;
@@ -108,9 +108,33 @@
         .card.professional .tech-badge { background-color: #ebf8ff; color: #2b6cb0; border-color: #bee3f8; }
         .card.personal .tech-badge { background-color: #e6fffa; color: #234e52; border-color: #b2f5ea; }
 
+        /* Tambahan styling untuk section kontak */
+        .contact-box {
+            background-color: #edf2f7;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #2d3748;
+            margin-bottom: 30px;
+        }
+        .contact-box p {
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        .contact-box p:last-child {
+            margin-bottom: 0;
+        }
+        .contact-box a {
+            color: #2b6cb0;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
         .footer-note {
             text-align: center;
-            margin-top: 70px;
+            margin-top: 50px;
             padding-top: 20px;
             border-top: 1px solid #e2e8f0;
             font-size: 0.95rem;
@@ -122,54 +146,58 @@
 
     <div class="hero">
         <div class="hero-title">Tata Cipta Tama</div>
-        <div class="hero-subtitle">Enterprise Software Engineering</div>
+        <div class="hero-subtitle">Enterprise Software Solutions</div>
         <div class="hero-tagline">
-            Fokus pada pengembangan arsitektur perangkat lunak modular, performa komputasi tinggi, dan integrasi sistem skala besar (*Large-scale Core Systems*).
+            Penyedia layanan pengembangan arsitektur perangkat lunak modular, performa komputasi tinggi, dan integrasi sistem skala besar untuk kebutuhan bisnis.
         </div>
     </div>
 
     <div class="container">
         
-        <div class="section-title">Kompetensi Utama</div>
+        <div class="section-title">Profil Perusahaan</div>
         <p>
-            Halaman ini merupakan representasi kapabilitas teknis independen dalam merancang, membangun, dan mengoptimalkan ekosistem aplikasi bisnis yang kompleks. Pengembangan difokuskan pada keandalan struktur data, skalabilitas kode, serta integrasi multi-modul untuk mendukung otomatisasi proses internal tingkat lanjut.
+            Tata Cipta Tama merupakan entitas bisnis yang berfokus pada penyediaan kapabilitas teknis independen dalam merancang, membangun, dan mengoptimalkan ekosistem aplikasi bisnis yang kompleks. Pengembangan difokuskan pada keandalan struktur data, skalabilitas kode, serta integrasi multi-modul untuk mendukung otomatisasi proses internal tingkat lanjut bagi klien korporat.
         </p>
 
-        <div class="section-title">Fokus & Ekosistem Teknologi</div>
+        <div class="section-title">Layanan & Produk Resmi</div>
         <div class="grid">
-            
             <div class="card professional">
-                <h4>1. Enterprise Core Systems (In-House Build)</h4>
-                <p>Pengalaman intensif dalam arsitektur sistem korporat internal yang terintegrasi tinggi, mencakup manajemen multi-modul, pengolahan data transaksional yang masif, serta kestabilan logika bisnis tingkat lanjut.</p>
+                <h4>1. Pengembangan Enterprise Core Systems (B2B)</h4>
+                <p>Pembuatan perangkat lunak *core system* kustom yang terintegrasi tinggi (seperti ERP dan CRM), mencakup manajemen multi-modul, pengolahan data transaksional yang masif, serta kestabilan logika bisnis tingkat lanjut.</p>
                 <div class="badge-group">
                     <span class="tech-badge">Java Spring</span>
                     <span class="tech-badge">Angular</span>
                     <span class="tech-badge">PostgreSQL</span>
                     <span class="tech-badge">TypeScript</span>
-                    <span class="tech-badge">HTML / CSS</span>
                 </div>
             </div>
 
             <div class="card personal">
-                <h4>2. Research & Personal Projects (Non-Komersial)</h4>
-                <p>Eksplorasi mandiri di luar lingkungan kerja formal, berfokus pada efisiensi pemrosesan skrip otomatis, pemodelan basis data relasional alternatif, serta implementasi infrastruktur berbasis awan (*cloud layout*).</p>
+                <h4>2. Layanan Infrastruktur & Otomatisasi (Cloud)</h4>
+                <p>Penjualan jasa perancangan basis data relasional, efisiensi pemrosesan skrip otomatis untuk pengolahan data perusahaan, serta implementasi dan pemeliharaan infrastruktur berbasis awan (*cloud layout*).</p>
                 <div class="badge-group">
                     <span class="tech-badge">Python</span>
                     <span class="tech-badge">MySQL</span>
                     <span class="tech-badge">Cloud Infrastructure</span>
                 </div>
             </div>
-
         </div>
 
         <div class="section-title">Prinsip Pengembangan</div>
         <p>
-            Setiap baris kode dibangun dengan standar kepatuhan tata kelola data yang ketat, mengutamakan pemisahan lapisan (*separation of concerns*), keamanan data transaksional, serta kemudahan pemeliharaan (*maintainability*) jangka panjang baik di lingkungan *on-premise server* maupun *cloud*.
+            Setiap produk perangkat lunak kami dibangun dengan standar kepatuhan tata kelola data yang ketat, mengutamakan pemisahan lapisan (*separation of concerns*), keamanan data transaksional, serta kemudahan pemeliharaan (*maintainability*) jangka panjang baik di lingkungan *on-premise server* maupun *cloud*.
         </p>
 
+        <div class="section-title">Informasi Kontak</div>
+        <div class="contact-box">
+            <p><strong>Alamat Kantor:</strong> Sukolilo, Surabaya, Jawa Timur, Indonesia</p>
+            <p><strong>Email:</strong> <a href="mailto:tataciptatama@gmail.com">tataciptatama@gmail.com</a></p>
+            <p><strong>Telepon / WhatsApp:</strong> +62 817-6789-777</p>
+        </div>
+
         <div class="footer-note">
-            <p style="text-align: center; margin-bottom: 5px;">&copy; Tata Cipta Tama. All Rights Reserved.</p>
-            <p style="text-align: center; font-size: 0.85rem; color: #a0aec0;">Seluruh informasi modul spesifik dilindungi oleh komitmen kerahasiaan profesional (NDA).</p>
+            <p style="text-align: center; margin-bottom: 5px;">&copy; 2026 Tata Cipta Tama. All Rights Reserved.</p>
+            <p style="text-align: center; font-size: 0.85rem; color: #a0aec0;">Seluruh informasi modul spesifik klien dilindungi oleh komitmen kerahasiaan profesional (NDA).</p>
         </div>
 
     </div>
